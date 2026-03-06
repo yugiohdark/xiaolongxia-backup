@@ -1,0 +1,10 @@
+# Daily logs (too many, not worth backing up)
+memory/2*.md
+# Archived
+memory/archived/
+# Secrets
+.secrets/
+.env
+# Temp files
+*.mp3
+*.tmp
