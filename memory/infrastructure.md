@@ -16,3 +16,5 @@
 ## Git 备份
 - Repo: git@github.com:yugiohdark/xiaolongxia-backup.git
 - Deploy key: ~/.ssh/id_ed25519
+- 备份脚本: scripts/backup.sh (动态发现文件，排除日记和 archived)
+- Cron: 每天 8:00 UTC 自动备份
