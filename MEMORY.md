@@ -22,6 +22,13 @@
 - **WhatsApp**: 已放弃 (Baileys 不稳定)
 - **TTS**: edge-tts `zh-CN-YunjianNeural`, 文件放 workspace, 发完删 mp3, 内置 tts 工具中文会截断不要用
 
+## Git 备份
+- Repo: git@github.com:yugiohdark/xiaolongxia-backup.git
+- 每天 8:00 UTC 自动备份（cron + scripts/backup.sh）
+
+## Ronnie 的日常
+- 咖啡：用 DF64V 磨豆机做 espresso（刻度 ~10 起调）
+
 ## Known Limitations
 - OpenAI API quota exhausted — no Whisper, no image gen
 - Cannot access Amazon internal (Midway auth)
@@ -52,10 +59,25 @@
 - **重要消息两边都发** — Slack DM + Telegram
 - **Ronnie 说过的偏好要记住** — 被吐槽过没记住周杰伦城市
 
+## Completed ✅
+- Training data import (57 workouts → Notion 三层结构) — 2026-03-03 完成
+  - Workouts DB: 49728d88-752d-4e29-89e8-3775f3203750
+  - Exercises DB: 1346b757-fa95-4e6e-84cb-bfb492f802df
+  - Sets DB: 75c2c6b8-d83f-4650-a2a2-8869a6f05112
+
 ## Pending
 - Memory embedding provider: 状态待确认（Gemini 配置中）
 
 ---
+
+## Travel Agency Side Business
+- Ronnie 有兴趣做 travel advisor side hustle（主要订国际机票赚 commission/markup）
+- 已写正式 proposal 到 Notion: https://www.notion.so/2f694768b89b800fb2a1f1930508bb7d
+- 核心方案：注册 host agency → 拿 consolidator net fare → markup 赚差价
+- Niche: premium cabin US↔Asia 航线，目标湾区华人圈
+- 小龙虾做 90% 工作，Ronnie 当持牌门面
+- **Status**: 等 Ronnie & Reuben 讨论决定，will revisit
+- 详见 `memory/travel-agency-project.md`
 
 ## 项目索引 (详见子文件)
 | 项目 | 文件 |
@@ -66,3 +88,4 @@
 | 周杰伦演唱会 | `memory/jay-chou-concert.md` |
 | 墨西哥 PR | `memory/mexico-pr-project.md` |
 | Infrastructure | `memory/infrastructure.md` |
+| Travel Agency | `memory/travel-agency-project.md` |
