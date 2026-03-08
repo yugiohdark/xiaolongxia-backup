@@ -66,7 +66,9 @@
   - Sets DB: 75c2c6b8-d83f-4650-a2a2-8869a6f05112
 
 ## Pending
-- Memory embedding provider: 状态待确认（Gemini 配置中）
+- Memory embedding provider: 未配置（provider: none, 0 files indexed）— 需要选 provider
+- Tock 抢位：等 Ronnie 决定 VPN/Tailscale 方案
+- 周杰伦演唱会：上海/香港/台北/北美日期仍未公布（cron 持续追踪中）
 
 ---
 
